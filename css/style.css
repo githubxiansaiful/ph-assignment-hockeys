@@ -1,3 +1,23 @@
 body {
     font-family: 'Manrope', sans-serif;
 }
+body .container {
+    max-width: 1170px !important;
+    margin: auto !important;
+    width: 90% !important;
+}
+.hock-title {
+    color: #131318;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.1em;
+    margin-bottom: 24px;
+}
+p.hock-sub {
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.60);
+    font-weight: 500;
+}
