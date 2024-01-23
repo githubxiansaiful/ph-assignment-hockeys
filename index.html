@@ -70,7 +70,7 @@
     <main>
         <!-- Hero Slider Section -->
         <!-- Professional Hockeys Club -->
-        <section>
+        <section class="mb-[80px]">
             <div class="container">
                 <div class="pt-8 pb-8 border-t-2 border-b-2 border-dashed mb-9">
                     <h2 class="hock-title">Professional Hockeys Club</h2>
@@ -79,11 +79,41 @@
             </div>
         </section>
         <!-- Program Sections -->
-        <section>
+        <section class="mb-[80px]">
             <div class="container">
                 <div class="pt-8 pb-8 border-t-2 border-b-2 border-dashed mb-9">
                     <h2 class="hock-title">Program Sections</h2>
                     <p class="hock-sub">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                </div>
+                <!-- Two Program Item -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div class="rounded-2xl px-5 lg:px-10 pt-[100px] pb-10 bg-[url('./Images/ps1.png')] bg-no-repeat bg-cover bg-center relative">
+                        <div class="absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+                        <div class="z-10 relative space-y-6">
+                            <h3 class="font-extrabold text-white text-[28px]">Junior Program</h3>
+                            <p class="text-white">Empower young minds with our Junior Program. Tailored for growth, it blends education and fun, fostering skills that last a lifetime. Join us in nurturing the potential of tomorrow's leaders.</p>
+                            <button class="btn bg-hock-primary text-[18px] lg:text-xl text-white border-none">Register Now</button>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl px-5 lg:px-10 pt-[100px] pb-10 bg-[url('./Images/ps2.png')] bg-no-repeat bg-cover bg-center relative">
+                        <div class="absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+                        <div class="z-10 relative space-y-6">
+                            <h3 class="font-extrabold text-white text-[28px]">Teenager Program</h3>
+                            <p class="text-white">Elevate teenage potential with our Teenager Program. Tailored for growth, it combines education and engagement, shaping well-rounded individuals. Join us in fostering skills and confidence for the journey ahead.</p>
+                            <button class="btn bg-hock-primary text-[18px] lg:text-xl text-white border-none">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Program Item -->
+                <div>
+                    <div class="rounded-2xl px-5 lg:px-10 pt-[180px] pb-10 bg-[url('./Images/ps3.png')] bg-no-repeat bg-cover bg-center relative">
+                        <div class="absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+                        <div class="z-10 relative space-y-6">
+                            <h3 class="font-extrabold text-white text-[28px]">Professional Program</h3>
+                            <p class="text-white">Unleash your professional prowess with our Professional Program. Crafted for career excellence, it integrates specialized training and practical skills, propelling you towards success in your chosen field.</p>
+                            <button class="btn bg-hock-primary text-[18px] lg:text-xl text-white border-none">Register Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -232,7 +262,7 @@
                     <h2 class="hock-title">Clients Question</h2>
                     <p class="hock-sub">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
                 </div>
-                <div class="p-8 border rounded-2xl grid grid-cols-2 gap-x-6">
+                <div class="p-8 border rounded-2xl grid grid-cols-1 lg:grid-cols-2 gap-x-6">
                     <div>
                         <img src="./Images/faq-icon.png" class="w-full">
                     </div>
@@ -292,8 +322,8 @@
                 </div>
                 <div>
                     <!-- Contact Details -->
-                    <div class="flex">
-                        <div class="space-y-6 border border-solid p-9 rounded-2xl">
+                    <div class="block lg:flex">
+                        <div class="space-y-6 border border-solid p-5 lg:p-9 rounded-2xl">
                             <div class="rounded-2xl p-8 bg-[#F8FEF2]">
                                 <img src="./Images/icon-phone.png" class="mb-6">
                                 <p class="mb-2">Phone Number:</p>
@@ -311,10 +341,10 @@
                             </div>
                         </div>
                         <!-- Contact Form -->
-                        <div class="flex-1 pl-6">
+                        <div class="flex-1 pt-6 lg:pt-0 lg:pl-6">
                             <form>
                                 <!-- inputs -->
-                                <div class="grid grid-cols-2 gap-4">
+                                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                                     <div>
                                         <label for="" class="font-extrabold mb-3 block">Your Name</label>
                                         <input type="text" placeholder="Enter your full name" class="input bg-[#f1f1f1] px-3 py-7 w-full outline-none  rounded-xl">
@@ -333,9 +363,9 @@
                                     </div>
                                 </div>
                                 <!-- Message -->
-                                <div>
+                                <div class="pt-6">
                                     <label for="" class="font-extrabold mb-3 block">Message</label>
-                                    <textarea name="" id="" cols="30" rows="15" placeholder="Write your message" class="bg-[#f1f1f1] px-3 py-7 w-full rounded-xl"></textarea>
+                                    <textarea name="" id="" cols="30" rows="14" placeholder="Write your message" class="bg-[#f1f1f1] px-3 py-7 w-full rounded-xl"></textarea>
                                     <button class="w-full btn bg-hock-primary text-white text-lg">Send Message</button>
                                 </div>
                             </form>
