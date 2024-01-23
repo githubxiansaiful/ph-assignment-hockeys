@@ -21,3 +21,20 @@ p.hock-sub {
     color: rgba(19, 19, 24, 0.60);
     font-weight: 500;
 }
+@media all and (max-width: 980px) {
+    .hock-title { 
+        font-size: 28px;
+    }
+}
+i.fa-solid.fa-star {
+    color: #F99808;
+}
+::selection {
+    color: #ffffff;
+    background: #FF4240;
+}
+input,
+textarea {
+    outline: none !important;
+    border: none !important;
+}
