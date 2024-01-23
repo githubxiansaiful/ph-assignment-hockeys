@@ -23,6 +23,7 @@
               colors: {
                 clifford: '#da373d',
                 'hock-primary': '#FF4240',
+                'hock-black': '#131318',
               }
             }
           }
@@ -105,11 +106,74 @@
             </div>
         </section>
         <!-- Get In Touch -->
-        <section>
+        <section class="mb-10">
             <div class="container">
                 <div class="pt-8 pb-8 border-t-2 border-b-2 border-dashed mb-9">
                     <h2 class="hock-title">Get In Touch</h2>
                     <p class="hock-sub">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                </div>
+                <div>
+                    <!-- Contact Details -->
+                    <div class="flex">
+                        <div class="space-y-6 border border-solid p-9 rounded-2xl">
+                            <div class="rounded-2xl p-8 bg-[#F8FEF2]">
+                                <img src="./Images/icon-phone.png" class="mb-6">
+                                <p class="mb-2">Phone Number:</p>
+                                <h4 class="text-[18px] font-extrabold text-hock-black">(+62) 123-321-543</h4>
+                            </div>
+                            <div class="rounded-2xl p-8 bg-[#FFFCF0]">
+                                <img src="./Images/icon-message.png" class="mb-6">
+                                <p class="mb-2">Email</p>
+                                <h4 class="text-[18px] font-extrabold text-hock-black">hockeys@support.com</h4>
+                            </div>
+                            <div class="rounded-2xl p-8 bg-[#F0F6FD]">
+                                <img src="./Images/icon-map.png" class="mb-6">
+                                <p class="mb-2">Location</p>
+                                <h4 class="text-[18px] font-extrabold text-hock-black">152/1 Mohakhali Wireless Gate</h4>
+                            </div>
+                        </div>
+                        <!-- Contact Form -->
+                        <div class="flex-1 pl-6">
+                            <form>
+                                <!-- inputs -->
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <label for="" class="font-extrabold mb-3 block">Your Name</label>
+                                        <input type="text" placeholder="Enter your full name" class="input bg-[#f1f1f1] px-3 py-7 w-full outline-none  rounded-xl">
+                                    </div>
+                                    <div>
+                                        <label for="" class="font-extrabold mb-3 block">Your Email</label>
+                                        <input type="email" required placeholder="Enter your valid email" class="input bg-[#f1f1f1] px-3 py-7 w-full rounded-xl">
+                                    </div>
+                                    <div>
+                                        <label for="" class="font-extrabold mb-3 block">Subject</label>
+                                        <input type="text" placeholder="Enter your subject" class="input bg-[#f1f1f1] px-3 py-7 w-full  rounded-xl">
+                                    </div>
+                                    <div>
+                                        <label for="" class="font-extrabold mb-3 block">Phone Number</label>
+                                        <input type="text" placeholder="Enter your mobile number" class="input bg-[#f1f1f1] px-3 py-7 w-full  rounded-xl">
+                                    </div>
+                                </div>
+                                <!-- Message -->
+                                <div>
+                                    <label for="" class="font-extrabold mb-3 block">Message</label>
+                                    <textarea name="" id="" cols="30" rows="15" placeholder="Write your message" class="bg-[#f1f1f1] px-3 py-7 w-full rounded-xl"></textarea>
+                                    <button class="w-full btn bg-hock-primary text-white text-lg">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="bg-[#F8F8F8] rounded-2xl p-9 mt-10 text-center">
+                    <h3 class="font-extrabold text-3xl mb-6">Social Media</h3>
+                    <ul class="flex justify-center space-x-5 text-2xl">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </section>
